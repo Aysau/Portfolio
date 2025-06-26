@@ -11,6 +11,8 @@ game designer.
 Made during a course at
 Högskolan i Skövde.
 
+![Elsworth Example](elsworthImage.png)
+
 Type of project:
 Explore a haunted house
 Solve the mystery
@@ -36,6 +38,8 @@ Group project with 4 programmers
 and 2 graphical artists. Made during a
 course at LBS Göteborg.
 
+![Battle Ram Example](battleRamImage.png)
+
 Type of project:
 A 1v1 arena fighter
 Developed in Unity and C#
@@ -44,10 +48,6 @@ LBS game awards 2021
 
 My focus:
 Implement functionality for two players at the same time, implementing UI and the various features for it such as cooldown timers, health bars and score tracking between rounds. Along with creating various abilities for the player such as their ultimate abilities.
-
-
-
-
 
 
 
@@ -69,13 +69,7 @@ Adjust and put together earlier research
 Measure the performance impact of the
 shader and how it can be used within the field
 
-
-
-
-
-
-
-
+![Fire Example](fireSimulationPreview.gif)
 
 
 Hierarchical state machine
@@ -101,7 +95,8 @@ Emotional states of the enemy based on the situation and several factors such as
 Work process:
 This project was hugely based on the idea of trying to recreate the adaptable enemies from Halo: Combat Evolved. We based our initial idea of GCD talk about how they designed and implemented their systems. But this didn’t provide any code, but rather design outlines on what the enemies should, and shouldn’t be able to do to achieve the desired feel of the enemies. With this outline we made our own initial sketch of how we could do this for our own enemies. We landed on a solution that uses a hierarchical state machine that chooses it’s states depending on the situation the enemy is in, such as how many allies are nearby, their hp, and what type of enemy it is. But also what type of emotion it was currently in, through calculating the emotion based on the ideas presented in the GDC talk we got a well working system that was designed to be used in future projects we might make as the code was adaptable and made to evolve. 
 
-This kind of workflow of trying to think about how other developers handled a problem made for a very interesting learning experience. We kind of had a clear goal in the beginning and we just had to find our way there. In the end I think we reached a very neat solution that reaches close in our prototype to what the GDC talk mentioned. However this prototype is smaller in scale so we were well aware that several systems might need to be adjusted to adapt to more thing such as vertical environment and the different tools a player might have available. We did however achieve a solid base that could be built upon as long as we kept the core ideas of what the enemy should be capable of.
+![AI Enemy Example](pathFindPreview.png)
+
 
 Re:Chrome:
 Summary:
@@ -116,6 +111,8 @@ Made in Unity and C#
 
 Trailer at:
 https://youtu.be/2cvzLcMWu7E
+
+![Re:Chrome preview](reChromePreview.png)
 
 My focus:
 All of the programming
@@ -154,11 +151,13 @@ varying abilities, such as a charge at distance, a flamethrower
 at closer range and a barrage of bullets at mid range. 
 This ended up being pretty fun while also teaching me ways 
 to make the boss feel more interactive for the player.
-
+![Level Generation Preview](levelGeneration.png)
 
 Smaller project: Game feel
 Summary: A solo project made in C# and Unity focusing on various types of feedback for the player such as screen shake, controller vibration, and various ways to reward or punish the player for their actions. Some ways I did this way the enemy growing strong when at low HP so the player felt a need to finish them off and dropping pickups to help the player. Various ways to punish or show the player they need to change their strategies was enemies being able to ambush a player that was hiding for too long.
 Lessons: This type of focused project helped me learn the impact both rewarding and punishing the player can have. It's all about a fine balance so the player doesn't feel discouraged to experiment, while also rewarding certain play styles that fit the designed play style.
+
+![Game feel preview](miniRpg.png)
 
 Smaller project: Component based programming
 Summary: A solo project focused on teaching me how to make adaptable and combinable systems to create new gameplay scenarios. Made in C# and Unity
