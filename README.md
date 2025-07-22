@@ -3,6 +3,9 @@ Games portfolio - Joel Carlsson
 ![Elsworth Example](elsworthImage.png)
 
 # **The Elsworth curse**
++ Group Project
++ 3D Exploration Horror
++ C# in Unity
 
 ### **Summary:**
 Group projects with two 
@@ -36,6 +39,11 @@ Finding the best way to create a tool that doesn’t require too much time to le
 
 # **Battle ram**
 
++ Group Project
++ Arena fighter
++ 2 Players
++ C# in Unity
+
 ### **Summary**
 Group project with 4 programmers
 and 2 graphical artists. Made during a
@@ -54,6 +62,10 @@ Implement functionality for two players at the same time, implementing UI and th
 ![Fire Example](fireSimulationPreview.gif)
 
 # **Fire simulation**
+
++ Eularian fire simulation at real time
++ Shaderlab and C# in Unity
++ 2 person project
 
 ### **Summary:**
 Cooperation between two programmers as a final thesis project at Högskolan i Skövde
@@ -75,6 +87,10 @@ shader and how it can be used within the field
 ![AI Enemy Example](pathFindPreview.png)
 
 # **Hierarchical state machine**
+
++ State machine deep dive
++ C# in Unity
++ 2 person Project
 
 ### **Summary:**
 Cooperation between two programmers
@@ -102,6 +118,10 @@ This project was hugely based on the idea of trying to recreate the adaptable en
 ![Re:Chrome preview](reChromePreview.png)
 
 # **Re:Chrome:**
+
++ Group project
++ C# in Unity
++ 2D with several minigames and exploration
 
 ### **Summary:**
 Group project with me as sole programmer, 
@@ -132,6 +152,10 @@ One of the most feature intensive games i have made yet. It started with making 
 # **Solo projects:**
 # **Procedural level generation and enemy behavior**
 
++ Solo project
++ Level generation and AI for enemy behaviours
++ C# in Unity
+
 ### **Summary:** 
 Practice in programming by making a prodcedureky generated 2D level with many rooms and entrances between them. Along with a boss enemy that adapts to the player behavior by using new attacks and movement abilities.
 
@@ -161,13 +185,15 @@ to make the boss feel more interactive for the player.
 
 # **Smaller project: Game feel**
 
-### **Summary:** A solo project made in C# and Unity focusing on various types of feedback for the player such as screen shake, controller vibration, and various ways to reward or punish the player for their actions. Some ways I did this way the enemy growing strong when at low HP so the player felt a need to finish them off and dropping pickups to help the player. Various ways to punish or show the player they need to change their strategies was enemies being able to ambush a player that was hiding for too long.
+### **Summary:** 
+A solo project made in C# and Unity focusing on various types of feedback for the player such as screen shake, controller vibration, and various ways to reward or punish the player for their actions. Some ways I did this way the enemy growing strong when at low HP so the player felt a need to finish them off and dropping pickups to help the player. Various ways to punish or show the player they need to change their strategies was enemies being able to ambush a player that was hiding for too long.
 Lessons: This type of focused project helped me learn the impact both rewarding and punishing the player can have. It's all about a fine balance so the player doesn't feel discouraged to experiment, while also rewarding certain play styles that fit the designed play style.
 
 
 
 # **Smaller project: Component based programming**
 
-### **Summary:** A solo project focused on teaching me how to make adaptable and combinable systems to create new gameplay scenarios. Made in C# and Unity
+### **Summary:** 
+A solo project focused on teaching me how to make adaptable and combinable systems to create new gameplay scenarios. Made in C# and Unity
 Learnings: This project taught me how as a programmer the way I implement a system can help for example game designers create more interesting and varied content in the game. If I split up various behaviours and let them be combined in many different ways, that can allow new types of enemies to be created purely through new combinations of scripts. For example, making enemies flee as an added script, or adding more attack options such as a chase. Keeping this in mind as an option can certainly help depending on the type of game that is being created and can allow experimenting while designing the game. It also taught me how to use the idea of idea + 1. So that a system works with the idea that is planned while also making sure it is adaptable and even situations that aren't planned at the moment can easily be implemented.
 
