@@ -2,7 +2,7 @@ Games portfolio - Joel Carlsson
 
 ![Elsworth Example](elsworthImage.png)
 
-#**The Elsworth curse**
+# **The Elsworth curse**
 
 **Summary:**
 Group projects with two 
