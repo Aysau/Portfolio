@@ -1,6 +1,4 @@
-Games portfolio - Joel Carlsson
-
-![Elsworth Example](elsworthImage.png)
+# **Games portfolio - Joel Carlsson**
 
 # **The Elsworth curse**
 + Group Project
@@ -34,8 +32,8 @@ Create a dialogue system that is able to be edited from outside of Unity to allo
 ### **Difficulties and solutions:**
 Finding the best way to create a tool that doesn’t require too much time to learn for other people in the group, while at the same time allowing enough customization to make the desired features work. Through various research and experimentation I ended up using a solution based on the Ink package. This separate program could be connected to the Unity Editor while at the same time allowing changes to be made outside of the main editor. This allowed the two writers of the project to write simple dialogue trees and with the help of simple variables they could themselves add triggers for certain stuff to change in the game, such as completing or adding a quest. It also allowed the customization the group agreed was needed for the project such as text effects, and speaker assigning.
 
+![Elsworth Example](elsworthImage.png)
 
-![Battle Ram Example](battleRamImage.png)
 
 # **Battle ram**
 
@@ -58,8 +56,8 @@ LBS game awards 2021
 ### **My focus:**
 Implement functionality for two players at the same time, implementing UI and the various features for it such as cooldown timers, health bars and score tracking between rounds. Along with creating various abilities for the player such as their ultimate abilities.
 
+![Battle Ram Example](battleRamImage.png)
 
-![Fire Example](fireSimulationPreview.gif)
 
 # **Fire simulation**
 
@@ -83,8 +81,8 @@ Adjust and put together earlier research
 Measure the performance impact of the
 shader and how it can be used within the field
 
+![Fire Example](fireSimulationPreview.gif)
 
-![AI Enemy Example](pathFindPreview.png)
 
 # **Hierarchical state machine**
 
@@ -114,8 +112,8 @@ Emotional states of the enemy based on the situation and several factors such as
 ### **Work process:**
 This project was hugely based on the idea of trying to recreate the adaptable enemies from Halo: Combat Evolved. We based our initial idea of GCD talk about how they designed and implemented their systems. But this didn’t provide any code, but rather design outlines on what the enemies should, and shouldn’t be able to do to achieve the desired feel of the enemies. With this outline we made our own initial sketch of how we could do this for our own enemies. We landed on a solution that uses a hierarchical state machine that chooses it’s states depending on the situation the enemy is in, such as how many allies are nearby, their hp, and what type of enemy it is. But also what type of emotion it was currently in, through calculating the emotion based on the ideas presented in the GDC talk we got a well working system that was designed to be used in future projects we might make as the code was adaptable and made to evolve. 
 
+![AI Enemy Example](pathFindPreview.png)
 
-![Re:Chrome preview](reChromePreview.png)
 
 # **Re:Chrome:**
 
@@ -146,8 +144,8 @@ Sound and music basic implementation with FMOD
 ### **Work process:**
 One of the most feature intensive games i have made yet. It started with making a simple 2D top down movement and a basic tile map to be used for making the levels. But most of the time was spent on the three totally different bosses. A core pillar for this game was that each encounter would work totally differently, the first one is snake, the second is a kind of Undertale like with dodging different attacks as you move in a square, and the last is dodging attacks by moving sideways quickly and attacks coming from above, kind of like in Everhood. All of this was made in around 2.5 months with me as the single programmer. This required lots of testing unlike most projects I have worked on, as many different things could go wrong, from simple flaws in the level design, to the different minigames not being fun or difficult enough. That is not even counting the various bugs that could occur as this was one of my earlier programming projects. But it also made me realize the power that can come from variety in a game, having different mechanics for the player to experience keeps it fresh and also gives me as the developer a bit more room to not make every single mechanic amazing as it doesn’t stay around for too long.
 
+![Re:Chrome preview](reChromePreview.png)
 
-![Level Generation Preview](levelGeneration.png)
 
 # **Solo projects:**
 # **Procedural level generation and enemy behavior**
@@ -180,8 +178,8 @@ at closer range and a barrage of bullets at mid range.
 This ended up being pretty fun while also teaching me ways 
 to make the boss feel more interactive for the player.
 
+![Level Generation Preview](levelGeneration.png)
 
-![Game feel preview](miniRpg.png)
 
 # **Smaller project: Game feel**
 
@@ -189,7 +187,7 @@ to make the boss feel more interactive for the player.
 A solo project made in C# and Unity focusing on various types of feedback for the player such as screen shake, controller vibration, and various ways to reward or punish the player for their actions. Some ways I did this way the enemy growing strong when at low HP so the player felt a need to finish them off and dropping pickups to help the player. Various ways to punish or show the player they need to change their strategies was enemies being able to ambush a player that was hiding for too long.
 Lessons: This type of focused project helped me learn the impact both rewarding and punishing the player can have. It's all about a fine balance so the player doesn't feel discouraged to experiment, while also rewarding certain play styles that fit the designed play style.
 
-
+![Game feel preview](miniRpg.png)
 
 # **Smaller project: Component based programming**
 
